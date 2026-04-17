@@ -1,0 +1,14 @@
+name: mood_sync
+description: Atmospheric environmental synchronization.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0        # For Weather Data
+  url_launcher: ^6.2.1 # For opening Spotify
+flutter:
+  uses-material-design: true
